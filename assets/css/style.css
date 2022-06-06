@@ -52,7 +52,7 @@ li {
   text-decoration: none;
 }
 
-.social-links a {
+.social-links  a {
   font-size: 18px;
   display: inline-block;
   background: #464b5d;
@@ -65,4 +65,19 @@ li {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+.social-links .social{
+    display: inline-block;
+}
+.github a:hover{
+    color: black;
+}
+.facebook a:hover{
+    color:rgba(65, 111, 249, 0.881);
+}
+.twitter a:hover{
+    color:rgba(74, 205, 234, 0.881);
+}
+.instagram a:hover{
+    color:rgb(218, 108, 108);
 }
