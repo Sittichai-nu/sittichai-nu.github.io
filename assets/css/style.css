@@ -1,0 +1,68 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+a:link {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #0f161e;
+  overflow-y: auto;
+}
+.header .profile img {
+  width: 150px;
+  border: 2px solid #777a89;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.header .profile h1 {
+  font-size: 24px;
+  color: #777a89;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+.header .profile h1 a, #nav a {
+  color: #777a89;
+}
+
+.header .profile h1 a:hover ,#nav a:hover{
+  color: rgba(73, 230, 75, 0.912);
+  text-decoration: none;
+}
+
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #464b5d;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
