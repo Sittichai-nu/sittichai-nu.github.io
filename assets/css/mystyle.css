@@ -197,6 +197,10 @@ main {
   background-color: white;
 }
 main section {
+  display: none;
   margin: 10px;
   background-color: #000;
+}
+main .section-active {
+  display: block;
 }/*# sourceMappingURL=mystyle.css.map */
