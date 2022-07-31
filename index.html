@@ -1,75 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS only -->
-    <!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
-    <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
-    <link rel="stylesheet" href="assets/css/mystyle.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS only -->
+  <!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+  <link rel="stylesheet" href="assets/css/mystyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap"
       rel="stylesheet"
     /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Sittichai Chaikamol</title>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Sittichai Chaikamol</title>
+</head>
 
-  <body class="main-content">
-    <header class="header">
-      <div class="profile">
-        <img src="./assets/imgs/nu.png" alt="">
+<body class="main-content">
+  <header class="header">
+    <div class="profile">
+      <img src="./assets/imgs/nu.png" alt="">
+    </div>
+    <div class="my-lists">
+      <hr>
+      <div class="control control--1 active-btn" data-tab="1">
+        <a href=""><i class="fa-solid fa-house-user"></i>Nu</a>
       </div>
-      <div class="my-lists">
-        <hr>
-        <div class="control control--1 " data-tab="1">
-          <a href="" ><i class="fa-solid fa-house-user"></i>Nu</a>
-        </div>
-        <hr>
-        <div class="control control--2" data-tab="2">
-          <a href="" ><i class="fa-solid fa-user"></i>About</a>
-        </div>
-        <hr>
-        <div class="control control--3" data-tab="3">
-          <a href=""><i class="fa-solid fa-briefcase" ></i>Portfolio</a>
-        </div>
-        <hr>
-        <div class="control control--4" data-tab="4">
-          <a href=""  ><i class="fa-solid fa-envelope"></i>Contact</a>
-        </div>
-        <hr>
+      <hr>
+      <div class="control control--2" data-tab="2">
+        <a href=""><i class="fa-solid fa-user"></i>About</a>
       </div>
-      <div class="socail-links">
-        <div class="socail socail1"><a href="https://github.com/Sittichai-nu"><i class="fa-brands fa-github"></i></a></div>
-        <div class="socail socail2"><a href="https://www.linkedin.com/in/sittichai-c-451165196/"><i class="fa-brands fa-linkedin-in"></i></i></a></i></div>
-        <div class="socail socail3"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></div>
-        <div class="socail socail4"><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></div>
-        <div class="socail socail5"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+      <hr>
+      <div class="control control--3" data-tab="3">
+        <a href=""><i class="fa-solid fa-briefcase"></i>Portfolio</a>
       </div>
-    </header>
-    <main class="main">
-      <section class="section operetor__section--1 nu" id="nu" >
-        <div class="my-name">
-          <h1 class="name">Hi, I'm <span>Nu</span>A Front End Web Developer</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste labore asperiores, repudiandae, nihil ex molestias explicabo officiis ipsum, quasi ipsam quia. Odio repudiandae dolorem exercitationem, quo culpa incidunt provident facere!</p>
+      <hr>
+      <div class="control control--4" data-tab="4">
+        <a href=""><i class="fa-solid fa-envelope"></i>Contact</a>
+      </div>
+      <hr>
+    </div>
+    <div class="socail-links">
+      <div class="socail socail1"><a href="https://github.com/Sittichai-nu"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="socail socail2"><a href="https://www.linkedin.com/in/sittichai-c-451165196/"><i
+            class="fa-brands fa-linkedin-in"></i></i></a></i></div>
+      <div class="socail socail3"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></div>
+      <div class="socail socail4"><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></div>
+      <div class="socail socail5"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section operetor__section--1 nu section-active" id="nu">
+      <div class="my-name">
+        <h1 class="name">Hi, I'm <span>Nu.</span> <br> A Web Developer.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste labore asperiores, repudiandae, nihil ex
+          molestias explicabo officiis ipsum, quasi ipsam quia. Odio repudiandae dolorem exercitationem, quo culpa
+          incidunt provident facere!</p>
+      </div>
+    </section>
+    <section class="section operetor__section--2 about" id="about">
+      <div class="main-title">
+        <h2>About<span> me</span><span class="bg-text">my stats</span></h2>
+      </div>
+      <div class="about-container">
+        <div class="left-about">
+          <h4>Information About me</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            aperiam dolorum cumque explicabo in natus facilis quisquam
+            corrupti culpa labore dignissimos, voluptatum rerum eius inventore
+            rem, dicta, ad eveniet tempore?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            aperiam dolorum cumque explicabo in natus facilis quisquam
+            corrupti culpa labore dignissimos, voluptatum rerum eius inventore
+            rem, dicta, ad eveniet tempore?
+          </p>
+
         </div>
-      </section>
-      <section class="section operetor__section--2 about" id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora architecto, fuga vitae iure aliquam modi fugit. Obcaecati explicabo velit repudiandae, nulla, eveniet suscipit debitis nemo error dolores libero tenetur quo.</section>
-      <section class="section operetor__section--3 portfolio" id="portfolio">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius veniam laboriosam architecto ipsum fugiat voluptate quae, consequuntur sit consequatur possimus inventore earum ad soluta accusantium aut dolor unde rerum.
-      </section>
-      <section class="section operetor__section--4 contact" id="contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iure sapiente in facilis enim eum temporibus libero provident maxime nulla. Maxime ut quaerat sit labore libero quas sequi earum porro.</section>
-    </main>
-    <script  src="assets/js/script.js"></script>
-  </body>
+        <!-- <div class="right-about">
+          <div class="about-item">
+            <div class="abt-text">
+              <p class="large-text">650+</p>
+              <p class="small-text">
+                Projects <br />
+                Completed
+              </p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="abt-text">
+              <p class="large-text">12+</p>
+              <p class="small-text">
+                Projects <br />
+                Completed
+              </p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="abt-text">
+              <p class="large-text">650+</p>
+              <p class="small-text">
+                Projects <br />
+                Completed
+              </p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="abt-text">
+              <p class="large-text">650+</p>
+              <p class="small-text">
+                Projects <br />
+                Completed
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <h4 class="stat-title"><i class="fa-solid fa-code"></i> My Skills</h4>
+      <div class="about-stats">
+        <div class="progress-bar">
+          <i class="fa-brands fa-js"></i> javascript
+        </div>
+        <div class="progress-bar">
+          <i class="fa-brands fa-html5"></i>HTML
+        </div>
+        <div class="progress-bar">
+          <i class="fa-brands fa-css3"></i> css
+        </div>
+        <div class="progress-bar">
+          <i class="fa-brands fa-bootstrap"></i>bootstrap
+        </div>
+        <div class="progress-bar">
+          <i class="fa-brands fa-node-js"></i> node.js
+        </div>
+        <div class="progress-bar">
+          <i class="fa-brands fa-python"></i>python
+        </div>
+        <div class="progress-bar">
+          <i class="fa-solid fa-database"></i> database
+        </div>
+        <div class="progress-bar">
+          <i class="fa-brands fa-aws"></i>aws
+        </div>
+        <div class="progress-bar"><i class="fa-brands fa-git"></i>version control </div>
+      </div>
+      <h4 class="stat-title">Experiences</h4>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2022 - present</p>
+          <h5>Web developer<span> - Hintz enterprise group inc.</span></h5>
+          <p>
+            Houston Texas.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <p class="tl-duration">2019 - 2020</p>
+          <h5>medical assisstance recording<span> - Houston Heart Clinic.</span></h5>
+          <p>
+            Humble Texas.
+
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="section operetor__section--3 portfolio " id="portfolio">
+      <div class="main-title">
+        <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+      </div>
+      <p class="port-text">
+        Here is some of my work that I've done in various programming
+        languages.
+      </p>
+      <div class="portfolios">
+        <div class="portfolio-item">
+          <div class="image">
+            <img src="asset/image/2.png" alt="" />
+          </div>
+          <div class="hover-items">
+            <h3>Project Source</h3>
+            <div class="icons">
+              <a href="#" class="icon">
+                <i class="fab fa-github"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="image">
+            <img src="asset/image/3.png" alt="" />
+          </div>
+          <div class="hover-items">
+            <h3>Project Source</h3>
+            <div class="icons">
+              <a href="#" class="icon">
+                <i class="fab fa-github"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="image">
+            <img src="asset/image/4.png" alt="" />
+          </div>
+          <div class="hover-items">
+            <h3>Project Source</h3>
+            <div class="icons">
+              <a href="#" class="icon">
+                <i class="fab fa-github"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="image">
+            <img src="asset/image/5.png" alt="" />
+          </div>
+          <div class="hover-items">
+            <h3>Project Source</h3>
+            <div class="icons">
+              <a href="#" class="icon">
+                <i class="fab fa-github"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="section operetor__section--4 contact " id="contact">        <div class="contact-container">
+      <div class="main-title">
+        <h2>
+          Contact <span>Me</span><span class="bg-text">My contact</span>
+        </h2>
+      </div>
+      <div class="contact-content-con">
+        <div class="left-contact">
+          <h4>Contact me here</h4>
+          <p>
+          </p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+                Location
+              </div>
+              <p>Houston, Texas</p>
+            </div>
+            <div class="contact-item">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+              </div>
+              <p>
+                <span>Nu.chai@yahoo.com</span>
+              </p>
+            </div>
+   
+            <div class="contact-item">
+              <div class="icon">
+                <i class="fas fa-globe-africa"></i>
+                <span>Languages</span>
+              </div>
+              <p>
+                <span>English, Thai</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="right-contact">
+          <form action="" class="contact-form">
+            <div class="input-control i-c-2">
+              <input type="text" required placeholder="YOUR NAME" />
+              <input type="email" required placeholder="YOUR EMAIL" />
+            </div>
+            <div class="input-control">
+              <input type="text" required placeholder="ENTER SUBJECT" />
+            </div>
+            <div class="input-control">
+              <textarea
+                name=""
+                id=""
+                cols="15"
+                rows="8"
+                placeholder="Message Here..."
+              ></textarea>
+            </div>
+            <div class="submit-btn">
+              <button class="main-btn">
+              Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div></section>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
